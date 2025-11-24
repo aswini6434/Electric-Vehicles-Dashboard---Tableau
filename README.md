@@ -16,7 +16,8 @@ Users can explore and filter the data by EV Type, State, and Model to better und
 • CAFV Status            • Top Models
 
 🖼️ Dashboard Preview
-<img width="1133" height="527" alt="image" src="https://github.com/user-attachments/assets/edf074ce-1e74-45e5-9940-73d92606dd21" />
+<img width="1139" height="528" alt="image" src="https://github.com/user-attachments/assets/f68cccf3-03ce-4d3c-950e-9ca9126ecfc9" />
+
 📌 Dashboard Image Highlights
 
 Shows KPIs for Total EVs, BEVs, PHEVs, Average Range
