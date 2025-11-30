@@ -23,7 +23,7 @@ It highlights key performance metrics, vehicle trends, state-wise distributions,
 📊 **Key Dashboard Features**
 
 
-🔹 1. **Total Vehicles KPI
+🔹 1. ****Total Vehicles KPI**
 **
  - Displays the total EV registrations.
 
@@ -118,7 +118,8 @@ EV range has steadily increased over the years with technological advancements.
 
 Majority of vehicles fall under CAFV Eligible or Unknown categories.
 
-📌** Conclusion****
+
+📌**** Conclusion******
 
 
 This interactive dashboard helps stakeholders, EV researchers, policymakers, and analysts quickly understand EV growth trends across the U.S. It visualizes key adoption drivers and highlights where EV infrastructure and policy planning can be focused.
