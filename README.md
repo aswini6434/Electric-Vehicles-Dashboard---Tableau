@@ -1,99 +1,114 @@
-🚗⚡ Electric Vehicles Dashboard Analysis – Tableau Project
-📌 Project Overview
+🚗⚡ **Electric Vehicles Dashboard Analysis – Tableau Project**
+
+📌 **Project Overview**
 
 This Tableau dashboard provides an in-depth analysis of Electric Vehicle (EV) registrations across the United States.
 It highlights key performance metrics, vehicle trends, state-wise distributions, and EV model comparisons to help users understand the growth and adoption of electric vehicles.
 
 🖼️ Dashboard Preview
 <img width="1139" height="528" alt="image" src="https://github.com/user-attachments/assets/f68cccf3-03ce-4d3c-950e-9ca9126ecfc9" />
-🎯 Objectives
 
-Analyze the distribution of EVs across states.
+🎯 **Dashboard Preview**
 
-Compare BEV (Battery Electric Vehicle) and PHEV (Plug-in Hybrid Electric Vehicle) trends.
+- Analyze the distribution of EVs across states.
 
-Identify top-performing EV makes and models.
+- Compare BEV (Battery Electric Vehicle) and PHEV (Plug-in Hybrid Electric Vehicle) trends.
 
-Understand yearly growth of EV adoption.
+- Identify top-performing EV makes and models.
 
-Assess CAFV (Clean Alternative Fuel Vehicle) eligibility breakdown.
+- Understand yearly growth of EV adoption.
 
-📊 Key Dashboard Features
-🔹 1. Total Vehicles KPI
+- Assess CAFV (Clean Alternative Fuel Vehicle) eligibility breakdown.
 
-Displays the total EV registrations.
+📊 **Key Dashboard Features**
 
-Includes breakdown of BEV vs. PHEV with percentage contribution.
 
-🔹 2. Average Electric Range
+🔹 1. **Total Vehicles KPI
+**
+ - Displays the total EV registrations.
 
-Shows average EV range (miles), giving insight into technological improvements.
+- Includes breakdown of BEV vs. PHEV with percentage contribution.
 
-🔹 3. EV Trend by Model Year
+🔹 2. **Average Electric Range**
 
-Line chart revealing EV adoption growth from 2010 to 2024.
+- Shows average EV range (miles), giving insight into technological improvements.
 
-Highlights model-year spikes and average yearly volume.
+🔹 3.** **EV Trend by Model Year****
 
-🔹 4. Total Vehicles by State (Map View)
+- Line chart revealing EV adoption growth from 2010 to 2024.
 
-Interactive U.S. map showing EV concentration by state.
+- Highlights model-year spikes and average yearly volume.
 
-Users can hover to view total vehicles per region.
+🔹 4. **Total Vehicles by State (Map View)**
 
-🔹 5. Top 10 EV Makes
+- Interactive U.S. map showing EV concentration by state.
 
-Horizontal bar chart ranking the most popular manufacturers
+- Users can hover to view total vehicles per region.
+
+🔹 5. ****Top 10 EV Makes**
+**
+- Horizontal bar chart ranking the most popular manufacturers
 (e.g., Tesla, Nissan, Chevrolet, BMW, Kia, etc.)
 
-🔹 6. CAFV Eligibility Donut Chart
+🔹 6. **CAFV Eligibility Donut Chart**
 
-Shows percentage of:
+- Shows percentage of:
 
-CAFV Eligible
+- CAFV Eligible
 
-Not Eligible
+- Not Eligible
 
-Unknown Category
+- Unknown Category
 
-🔹 7. Vehicles by Model Table
+🔹 7. **Vehicles by Model Table**
 
-Displays leading EV models with:
+- Displays leading EV models with:
 
-Make
+- Make
 
-EV Type
+- EV Type
 
-Percentage of Total Vehicles
+- Percentage of Total Vehicles
 
-🎛 Interactive Filters
+🎛 **Interactive Filters**
 
 The dashboard includes user-friendly filters to refine insights:
 
-EV Type
+- EV Type
 
-State (multiple selection)
+- State (multiple selection)
 
-Model
+- Model
 
 These filters dynamically update all charts for customized analysis.
 
-🛠️ Tools & Technologies Used
 
-Tableau Desktop / Tableau Public
+**🛠️ **Tools & Technologies Used**
+**
+ **Tableau Desktop / Tableau Public**
 
-Data Cleaning & Preparation: Excel / SQL (if applicable)
+- Data Cleaning & Preparation: Excel
 
-Dataset: Electric Vehicle Population Open Data
+- Dataset: Electric Vehicle Population Open Data
 
-📁 Repository Structure
-📂 Electric-Vehicles-Dashboard
+**📁 Repository Structure**
+
+
+📂 **Electric-Vehicles-Dashboard**
+
+
  ├── 📊 dashboard.twbx           # Tableau workbook
+ 
  ├── 📁 dataset/                 # Original and cleaned datasets
+ 
  ├── 📄 README.md                # Project documentation
+ 
  └── 📸 screenshots/             # Dashboard screenshots
+ 
+**
 
-🚀 Insights & Findings
+🚀 **Insights & Findings**
+
 
 Tesla dominates EV registrations in both make and model categories.
 
@@ -103,6 +118,7 @@ EV range has steadily increased over the years with technological advancements.
 
 Majority of vehicles fall under CAFV Eligible or Unknown categories.
 
-📌 Conclusion
+📌** Conclusion****
+
 
 This interactive dashboard helps stakeholders, EV researchers, policymakers, and analysts quickly understand EV growth trends across the U.S. It visualizes key adoption drivers and highlights where EV infrastructure and policy planning can be focused.
