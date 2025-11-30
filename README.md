@@ -1,137 +1,108 @@
-# 🚗⚡ Electric Vehicles Dashboard – Tableau
-Interactive Tableau dashboard analyzing electric vehicle (EV) trends in the US including state wise adoption EV types top manufactures model performance and annual growth
-📝 Project Overview
+🚗⚡ Electric Vehicles Dashboard Analysis – Tableau Project
+📌 Project Overview
 
-This project presents an interactive Electric Vehicles (EV) Dashboard built using Tableau. It highlights key insights such as total EV count, BEV vs PHEV distribution, model and manufacturer performance, state-wise EV adoption, and yearly growth trends.
-Users can explore and filter the data by EV Type, State, and Model to better understand EV market trends across the United States.
-                   Electric Vehicles Dashboard (Tableau)
-                                   │
-     ┌─────────────────────────────┼─────────────────────────────┐
-     │                             │                             │
-   KPIs                        Visuals                      Filters
-     │                             │                             │
-• Total EVs              • State Map                     • EV Type
-• BEV / PHEV             • Yearly Trend                 • State
-• Avg Range              • Top Manufacturers            • Model
-• CAFV Status            • Top Models
+This Tableau dashboard provides an in-depth analysis of Electric Vehicle (EV) registrations across the United States.
+It highlights key performance metrics, vehicle trends, state-wise distributions, and EV model comparisons to help users understand the growth and adoption of electric vehicles.
 
 🖼️ Dashboard Preview
 <img width="1139" height="528" alt="image" src="https://github.com/user-attachments/assets/f68cccf3-03ce-4d3c-950e-9ca9126ecfc9" />
+🎯 Objectives
 
-📌 Dashboard Image Highlights
+Analyze the distribution of EVs across states.
 
-Shows KPIs for Total EVs, BEVs, PHEVs, Average Range
+Compare BEV (Battery Electric Vehicle) and PHEV (Plug-in Hybrid Electric Vehicle) trends.
 
--Includes State-wise EV Distribution Map
+Identify top-performing EV makes and models.
 
--Displays Yearly EV Growth Trend (2010–2024)
+Understand yearly growth of EV adoption.
 
--Top 10 Manufacturers & Models comparison
+Assess CAFV (Clean Alternative Fuel Vehicle) eligibility breakdown.
 
--CAFV Eligibility Donut Chart
+📊 Key Dashboard Features
+🔹 1. Total Vehicles KPI
 
--Interactive filters for EV Type, State, Model
+Displays the total EV registrations.
 
-📊 **Dashboard Features**
-KPIs
+Includes breakdown of BEV vs. PHEV with percentage contribution.
 
-🚗 Total Vehicles: 1,50,437
+🔹 2. Average Electric Range
 
-🔋 Avg Electric Range: 67.86 miles
+Shows average EV range (miles), giving insight into technological improvements.
 
-🔌 Total BEV Vehicles: 1,16,766
+🔹 3. EV Trend by Model Year
 
-⚡ Total PHEV Vehicles: 33,671
+Line chart revealing EV adoption growth from 2010 to 2024.
 
-Charts Included
+Highlights model-year spikes and average yearly volume.
 
-Total Vehicles by Model Year (Trend Line)
+🔹 4. Total Vehicles by State (Map View)
 
-State-wise EV Distribution (Map)
+Interactive U.S. map showing EV concentration by state.
 
-Top 10 Vehicle Brands by Total Count
+Users can hover to view total vehicles per region.
 
-CAFV Eligibility Donut Chart
+🔹 5. Top 10 EV Makes
 
-Model-wise EV Distribution Table
+Horizontal bar chart ranking the most popular manufacturers
+(e.g., Tesla, Nissan, Chevrolet, BMW, Kia, etc.)
 
-Filters Used
+🔹 6. CAFV Eligibility Donut Chart
 
-EV Type
+Shows percentage of:
 
-State
+CAFV Eligible
 
-Model
+Not Eligible
 
-🔍** Key Insights
+Unknown Category
 
-Tesla leads the market with the highest total vehicles.
+🔹 7. Vehicles by Model Table
 
-BEVs contribute 77.62% of total EVs.
+Displays leading EV models with:
 
-Model Y, Model 3, and Nissan Leaf are top-performing models.
-
-California has the highest EV count in the U.S.
-
-Annual growth in EV adoption shows a significant upward trend since 2016.
-
-🧪 Tools Used
-
-Tableau
-
-📊 Dashboard Features
-KPIs
-
-🚗 Total Vehicles: 1,50,437
-
-🔋 Avg Electric Range: 67.86 miles
-
-🔌 Total BEV Vehicles: 1,16,766
-
-⚡ Total PHEV Vehicles: 33,671
-
-Charts Included
-
-Total Vehicles by Model Year (Trend Line)
-
-State-wise EV Distribution (Map)
-
-Top 10 Vehicle Brands by Total Count
-
-CAFV Eligibility Donut Chart
-
-Model-wise EV Distribution Table
-
-Filters Used
+Make
 
 EV Type
 
-State
+Percentage of Total Vehicles
+
+🎛 Interactive Filters
+
+The dashboard includes user-friendly filters to refine insights:
+
+EV Type
+
+State (multiple selection)
 
 Model
 
-🔍 Key Insights
+These filters dynamically update all charts for customized analysis.
 
-Tesla leads the market with the highest total vehicles.
+🛠️ Tools & Technologies Used
 
-BEVs contribute 77.62% of total EVs.
+Tableau Desktop / Tableau Public
 
-Model Y, Model 3, and Nissan Leaf are top-performing models.
+Data Cleaning & Preparation: Excel / SQL (if applicable)
 
-California has the highest EV count in the U.S.
+Dataset: Electric Vehicle Population Open Data
 
-Annual growth in EV adoption shows a significant upward trend since 2016.
+📁 Repository Structure
+📂 Electric-Vehicles-Dashboard
+ ├── 📊 dashboard.twbx           # Tableau workbook
+ ├── 📁 dataset/                 # Original and cleaned datasets
+ ├── 📄 README.md                # Project documentation
+ └── 📸 screenshots/             # Dashboard screenshots
 
-🧪 Tools Used
+🚀 Insights & Findings
 
-Tableau
+Tesla dominates EV registrations in both make and model categories.
 
-Excel/CSV for data cleaning
+States like California lead significantly in EV adoption.
 
-Tableau Maps + Table Calculations
+EV range has steadily increased over the years with technological advancements.
 
-Filters, KPIs, Legends & Custom Formatting data cleaning
+Majority of vehicles fall under CAFV Eligible or Unknown categories.
 
-Tableau Maps + Table Calculations
+📌 Conclusion
 
-Filters, KPIs, Legends & Custom Formatting
+This interactive dashboard helps stakeholders, EV researchers, policymakers, and analysts quickly understand EV growth trends across the U.S. It visualizes key adoption drivers and highlights where EV infrastructure and policy planning can be focused.
